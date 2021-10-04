@@ -1,4 +1,4 @@
-from speech_rec.speech_test import voice_to_text
+from ChatApplication.speech_rec.speech_test import voice_to_text
 
 import platform
 if platform.system() == "Windows":
