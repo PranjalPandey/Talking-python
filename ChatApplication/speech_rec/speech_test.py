@@ -17,14 +17,14 @@ def voice_to_text():
             pass
     return voice_input
 
-while True:
-    print('Python is listening...')
-    inp = voice_to_text()
-    print(f'You just said {inp}.')
-    if "stop listening" in inp:
-        print('Goodbye!')
-        break
-    elif "browser" in inp:
-        inp = inp.replace('browser ','')
-        webbrowser.open("http://"+inp)
-    continue
+# while True:
+#     print('Python is listening...')
+#     inp = voice_to_text()
+#     print(f'You just said {inp}.')
+#     if "stop listening" in inp:
+#         print('Goodbye!')
+#         break
+#     elif "browser" in inp:
+#         inp = inp.replace('browser ','')
+#         webbrowser.open("http://"+inp)
+#     continue
