@@ -1,5 +1,5 @@
 # Put mysay.py in the same folder as this script
-from ChatApplication.speech_rec.mysay import print_say
+from tp_pkg.mysay import print_say
 import pathlib
 # Open the file, and read the content of the text file
 myfile = pathlib.Path.cwd() / 'files' / 'storm.txt'
