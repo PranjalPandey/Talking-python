@@ -1,5 +1,5 @@
-from ChatApplication.speech_rec.mysay import print_say
-from ChatApplication.speech_rec.speech_test import voice_to_text
+from tp_pkg.mysay import print_say
+from tp_pkg.myscr import voice_to_text
 
 print_say('What is the length of the rectangle?')
 # Convert the voice input to a variable inp1
