@@ -15,20 +15,20 @@ def live_radio():
     browser.get("https://onlineradiobox.com/us/")
     button = browser.find_element_by_xpath('//*[@id="b_top_play"]')
     button.click()
-    while True:
-        print_say("how may I help you?")
-        inp = voice_to_text().lower()
-        print_say(f'you just said {inp}')
-        if inp == "stop listening":
-            print_say('Goodbye!')
-            break
-        elif "radio" in inp:
-            print_say('OK, play live radio online for you!')
-            live_radio()
-            while True:
-                background = voice_to_text().lower()
-                if "stop playing" in background:
-                    button.click()
-                    break
-                else:
-                    continue
+while True:
+    print_say("how may I help you?")
+    inp = voice_to_text().lower()
+    print_say(f'you just said {inp}')
+    if inp == "stop listening":
+        print_say('Goodbye!')
+        break
+    elif "radio" in inp:
+        print_say('OK, play live radio online for you!')
+        live_radio()
+        while True:
+            background = voice_to_text().lower()
+            if "stop playing" in background:
+                button.click()
+                break
+            else:
+                continue
