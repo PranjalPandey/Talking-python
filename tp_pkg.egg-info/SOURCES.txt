@@ -1,0 +1,9 @@
+setup.py
+tp_pkg/__init__.py
+tp_pkg/mysay.py
+tp_pkg/myscr.py
+tp_pkg.egg-info/PKG-INFO
+tp_pkg.egg-info/SOURCES.txt
+tp_pkg.egg-info/dependency_links.txt
+tp_pkg.egg-info/not-zip-safe
+tp_pkg.egg-info/top_level.txt
